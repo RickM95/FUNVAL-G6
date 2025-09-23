@@ -1,0 +1,28 @@
+body{
+    background-image: url('./imgs/city-backgroundGIF.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h2 {
+    color: #11a0ff;
+    font-size: 2em;
+}
+
+h3 {
+    color: #4bb7ff;
+    font-size: 2em;
+}
+
+ul li, ol li {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: #5cbeff;
+    text-decoration: none;
+}
