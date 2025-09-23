@@ -6,23 +6,35 @@ body{
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+    text-shadow:2px 2px 2px #000000;
+}
+h1{
+    text-shadow:4px 4px 4px #000000;
 }
 h2 {
     color: #11a0ff;
     font-size: 2em;
+    text-shadow:4px 4px 4px #00070c;
+
 }
 
 h3 {
     color: #4bb7ff;
     font-size: 2em;
+    text-shadow:4px 4px 4px #000000;
 }
 
 ul li, ol li {
     font-size: 1.5em;
     color: rgb(255, 255, 255);
+    text-shadow:4px 4px 4px  #000407;
 }
 
+.p{
+    text-shadow:4px 4px 4px #00090f;
+}
 a {
     color: #5cbeff;
     text-decoration: none;
+    text-shadow:4px 4px 4px #000102;
 }
