@@ -1,0 +1,158 @@
+body {
+    background-color:#121312;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    align-items: center;
+    background-color: #202020;
+    padding: 50px 50px;
+    max-width: 390px;
+    margin: 50px auto;
+}
+
+.header {
+    padding: 20px;
+    align-items: flex;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#facebook {
+    width: 60px;
+    height: 60px;
+    padding-right: 7px;
+
+}
+#google {
+    width: 60px;
+    height: 60px;
+    padding-right: 7px;
+}
+#playstation {
+    width: 60px;
+    height: 60px;
+    padding-right: 7px;
+}
+#xbox {
+    width: 60px;
+    height: 60px;
+    padding-right: 7px;
+ }
+#switch { 
+    width: 60px;
+    height: 60px;
+}
+
+.register {
+    margin: 20px 0;
+    text-align: left;
+    color:#ffffff;
+ }
+.country {
+    background-color: #2b2a2b;
+    color: #626363;
+    height:40px;
+    width: 100%;
+    text-align: center;
+ }
+.name {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+ }
+.name input {
+    flex: 1;
+    box-sizing: border-box;
+    height: 40px;
+}
+.username{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.username input {
+    flex: 1;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.email input {
+    flex: 1;
+    box-sizing: border-box;
+    height: 40px;
+}
+.password{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.password input {
+    flex: 1;
+    box-sizing: border-box;
+    height: 40px;
+}
+.checkbox-1 {
+    text-align: left;
+    color: white;
+    padding-bottom: 20px;
+    accent-color: #2b2a2b;
+ }
+.checkbox-2 {
+    text-align: left;
+    color: white;
+    padding-bottom: 30px;
+    accent-color: #2b2a2b
+ }
+.submit {
+    padding-bottom: 20px;
+    width: 100%;
+ }
+ 
+.send {
+    width: 100%;
+    height: 60px;
+    padding: 10px 0;
+    background-color: #1b1a1b;
+    color:#4f4e4e;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+ }
+
+form {
+ }
+input[type="text"] {
+    background-color: #2b2a2b;
+    height:40px;
+    width: max-content;
+ }
+input[type="password"] {
+    background-color: #2b2a2b;
+    height:40px;
+ }
+select { }
+label { }
+
+p {
+    color: white;
+}

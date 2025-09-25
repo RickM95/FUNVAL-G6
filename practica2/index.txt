@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <table>
+    <tr>
+        <th>Nombre de Producto</th>
+        <th>Precio</th>
+        <th>Cantidad en Stock</th>
+    </tr>
+    <tr>
+        <td>Limon</td>
+        <td>$12</td>
+        <td>56</td>
+    </tr>
+    <tr>
+        <td>Peras</td>
+        <td>$18</td>
+        <td>25</td>
+    </tr>
+        <tr>
+        <td>Manzanas</td>
+        <td>$16</td>
+        <td>120</td>
+    </tr>
+    <tr>
+        <td>Piña</td>
+        <td>$25</td>
+        <td>87</td>
+    </tr>
+    </table> -->
+    <div class="container">
+        <h1>Formulario Noche de Hogar Misional</h1>
+        <form action="#" method="post">
+            <label for="apellido">Apellido de la familia:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Merren">
+
+            <label for="miembros"># de miembros de la familia:</label>
+            <input type="number" id="miembros" name="miembros" min="1" placeholder="3">
+            <label for="#telefono">Numero de telefono</label>
+            <input type="number" id="telefono" name="telefono" placeholder="+504 9988-7766">
+
+            <label for="llamamiento">Llamamiento:</label>
+            <select id="llamamiento" name="llamamiento" >
+                <option value="">--Seleccione un llamamiento--</option>
+                <option value="presidente">Presidente(a)</option>
+                <option value="consejero">Consejero</option>
+                <option value="maestro">Maestro</option>
+
+                <option value="None">Sin llamamiento</option>
+            </select>
+
+            <label for="fecha_hora">Fecha y hora de la noche de hogar:</label>
+            <input type="datetime-local" id="fecha_hora" name="fecha_hora" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+</body>
+</html>
