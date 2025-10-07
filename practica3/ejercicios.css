@@ -1,0 +1,45 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-image: url(../imgs/desert-road.png);
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat
+    ;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contenedor article {
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: ;
+}
+
+.contenedor article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.pollo1{
+    background-color: rgb(255, 234, 167);
+}
+.pollo2{
+    background-color: rgb(223, 230, 233);
+}
+.pollo3{
+    background-color: rgb(250, 177, 160); 
+}
+.pollo4{
+    background-color: rgb(85, 239, 196); 
+}

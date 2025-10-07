@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.box1 {
+  background: cyan;
+  padding: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.box2, .box3 {
+  flex: 1;
+  padding: 50px 0;
+  font-size: 2em;
+  color: black;
+  background: red;
+}
+
+.box4 {
+  background: limegreen;
+  padding: 50px 0;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.box5, .box6 {
+  background: yellow;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px){
+    
+}
