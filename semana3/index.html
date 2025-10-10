@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <script src="./style.js"defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div id="app" class="w-full max-w-md bg-white shadow-lg rounded-2xl p-6 text-center">
+    <h1 class="text-2xl font-bold mb-4 text-blue-700">💳 Sistema Bancario</h1>
+
+    
+    <div id="loginSection">
+      <p class="mb-2 text-gray-600">Inicie sesión con su número de cuenta y PIN</p>
+      <input id="accountNumber" type="text" placeholder="Número de cuenta" class="w-full mb-2 p-2 border rounded">
+      <input id="accountPin" type="password" placeholder="PIN" class="w-full mb-4 p-2 border rounded">
+      <button id="loginBtn" class="bg-blue-600 hover:bg-blue-700 text-white w-full py-2 rounded transition">Iniciar sesión</button>
+      <p id="loginError" class="text-red-500 text-sm mt-2"></p>
+    </div>
+
+
+    <div id="menuSection" class="hidden">
+      <h2 class="text-xl font-semibold mb-4">Bienvenido <span id="userName"></span></h2>
+      <div class="grid gap-2">
+        <button class="btnMenu" data-action="saldo">Consultar saldo</button>
+        <button class="btnMenu" data-action="depositar">Depositar dinero</button>
+        <button class="btnMenu" data-action="retirar">Retirar dinero</button>
+        <button class="btnMenu" data-action="transferir">Transferir dinero</button>
+        <button class="btnMenu" data-action="historial">Mostrar historial</button>
+        <button class="btnMenu bg-red-500 hover:bg-red-600" data-action="salir">Cerrar sesión</button>
+      </div>
+      <div id="output" class="mt-4 p-3 bg-gray-50 rounded text-left text-sm"></div>
+    </div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</body>
+</html>
